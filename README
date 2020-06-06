@@ -1,0 +1,8 @@
+A module which prints the number of characters entered on PS/2 keyboard at each time interval (60 sec by default) to dmesg.
+
+Time interval is defined by MSEC_TIME_INTERVAL in the code begining.
+
+As of now only first code set is supported. It has to be used. Reported character count won't be correct otherwise.
+NumPad number keys are always assumed to always be on (tracking numlock trigger value is not supported).
+
+Multimedia keys are handled correctly.
