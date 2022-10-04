@@ -1,3 +1,6 @@
+Doesn't work with the newer kernels.
+Used to work with linux-5.6.
+
 A module which prints the number of characters entered on PS/2 keyboard at each time interval (60 sec by default) to dmesg.
 
 Time interval is defined by MSEC_TIME_INTERVAL in the code begining.
